@@ -1,0 +1,13 @@
+{
+  "name": "first-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node run-hyperframes.mjs preview",
+    "preview": "node run-hyperframes.mjs preview --background",
+    "stop": "node run-hyperframes.mjs preview --stop",
+    "check": "node run-hyperframes.mjs check",
+    "render": "node run-hyperframes.mjs render --workers 1 --quality draft --output output/first-video.mp4",
+    "hf": "node run-hyperframes.mjs"
+  }
+}
